@@ -5,7 +5,7 @@ class Main {
 
     // Step 1 - Create a BST tree object called lab5Tree
 
-    BST lab5Tree = new BST<Integer>((e1,e2) -> (e1-e2));
+    BST lab5Tree = new BST<Integer>();
 
     // Step 2 - Insert the following values: 13, 22, 36, 5, 48, 17, 39, 2, 26, 40, 29, 34, 10
 
