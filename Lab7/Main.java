@@ -68,11 +68,11 @@ class Main {
 
     // 7. Call the printPath method (assuming this method exists in the UnweightedGraph class)
 
-    result.printPath(3); // Non-optimal path
+    result.printPath(3); // Not optimal path due to dfs not bfs
     System.out.println();
-    result.printPath(2); // Non-optimal path
+    result.printPath(2);
     System.out.println();
-    result.printPath(4); // Non-optimal path
+    result.printPath(4); 
     System.out.println();
 
     // 8. Call printTree() to print the entire DFS tree (assuming this method exists in the UnweightedGraph class)
